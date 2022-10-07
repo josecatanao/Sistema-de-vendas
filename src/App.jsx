@@ -1,8 +1,9 @@
-
+import MenuBar from "./components/Menubar";
+import "./style.css"
 function App() {
   return (
-    <div >
-         <p>ola</p>
+    <div>
+      <MenuBar/>
     </div>
   );
 }
