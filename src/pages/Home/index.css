@@ -1,0 +1,48 @@
+#bloco-principal-home{
+    width: 81%;
+    margin: 0 auto;
+}
+#bloco-saudacao-usuario{
+  
+}
+#bloco-boas-vindas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+}
+#bloco-boas-vindas>div{
+    display: flex;
+    gap: 15px;
+}
+#bloco-boas-vindas>div>div>p:first-child {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 19px;
+    margin-bottom: 2px;
+}
+#bloco-boas-vindas>div>div>p:last-child {
+    font-family: 'Inter', sans-serif;
+    color: #6a6161;
+    font-size: 15px;
+      
+}
+#bloco-boas-vindas>div>img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid #262c35;
+    border-radius: 5px;
+}
+#carrinho{
+    width: 40px;
+    height: 40px;
+    background: #262C35;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 22px;
+    cursor: pointer;
+}
