@@ -3,6 +3,10 @@ import { RiShoppingBag3Line } from 'react-icons/ri';
 import { BsBoxSeam } from 'react-icons/bs';
 import { AiOutlineUnorderedList } from 'react-icons/ai';
 import { FiTrello } from 'react-icons/fi';
+import { Link } from "react-router-dom";
+
+console.log(window.location.pathname)
+
 export default function MenuBar(){
     return(
         <section id="bloco-menu">
@@ -15,10 +19,10 @@ export default function MenuBar(){
             </header>
             <nav>
                 <ul>
-                    <li><a className="selecionada" href="#"><RiShoppingBag3Line/>Vendas</a></li>
-                    <li><a href="#"><BsBoxSeam/>Estoque</a></li>
-                    <li><a href="#"> <AiOutlineUnorderedList/>Venda historico</a></li>
-                    <li><a href="#"> <FiTrello/>Metricas</a></li>
+                    <li><Link className={window.location.pathname =='/'?"selecionada": ""} to={"/"}><RiShoppingBag3Line/>Vendas</Link></li>
+                    <li><Link className={window.location.pathname =='/estoque'?"selecionada": ""} to={"/estoque"}><BsBoxSeam/>Estoque</Link></li>
+                    <li><Link className={window.location.pathname =='/historico'?"selecionada": ""} to={"/historico"}> <AiOutlineUnorderedList/>Venda historico</Link></li>
+                    <li><Link className={window.location.pathname =='/metricas'?"selecionada": ""} to={"/metricas"}> <FiTrello/>Metricas</Link></li>
                 </ul>
             </nav>
         </section>

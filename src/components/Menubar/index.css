@@ -28,7 +28,7 @@
 #bloco-menu>header>div>p:first-child {
     font-family: 'Inter', sans-serif;
     color: #b1b1b1;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 4px;
 }
 
@@ -77,7 +77,7 @@
     color: #FFF !important;
 }
 #bloco-menu>nav>ul>li>a>svg{
-    margin-right: 5px;
+    margin-right: 11px;
     margin-left: 10px;
     font-size: 21px;
 }
